@@ -8,6 +8,7 @@ def TicTacToe():
     print("Press 1-2 to choose your option.\n")
     option = input().strip()
     print('')
+    
     if option == '1':
         print('Player 1, please, enter your nickname.\n')
         player1 = Player(input(), 'X')
@@ -46,6 +47,14 @@ def TicTacToe():
             if game.isOver:
                 print(game.board)
                 print(game.results)
-                break
+                print('Do you want to play a new game?')
+                print('1. Yes')
+                print('2. No')
+
+                if input().split() == '1':
+                    game.resetGame()
+                else:
+                    break
+
     if option == '2':
         pass
