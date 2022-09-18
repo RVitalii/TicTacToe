@@ -1,0 +1,4 @@
+# TIC-TAC-TOE
+
+## Short Description
+This is a classical version of a widely known board game for kids. It was written in a palin Python3 for educational purposes as a part of my codding practice. 
