@@ -47,10 +47,9 @@ def TicTacToe():
             if game.isOver:
                 print(game.board)
                 print(game.results)
-                print('Do you want to play a new game?')
+                print('Do you want to start a new game?')
                 print('1. Yes')
                 print('2. No')
-
                 if input().split() == '1':
                     game.resetGame()
                 else:
